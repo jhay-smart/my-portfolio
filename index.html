@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Personal Portfolio</title>
+		<link rel="stylesheet" href="style.css" />
+		<script
+			src="https://kit.fontawesome.com/69e0894caf.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<!---Header section-->
+
+		<div id="header">
+			<div class="container">
+				<nav>
+					<img src="images/logo.svg" alt="" class="logo" />
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+				<div class="header-text">
+					<p>Frontend Developer</p>
+					<h1>
+						Hi, My name is <span>Joy</span><br />
+						Omale from Nigeria
+					</h1>
+				</div>
+			</div>
+		</div>
+		<!---About section-->
+		<div id="about">
+			<div class="container">
+				<div class="about-row">
+					<div class="about-col-1">
+						<img src="images/profile.jpg" alt="" />
+					</div>
+					<div class="about-col-2">
+						<h1 class="sub-title">About Me</h1>
+						<p>
+							A first class graduate of Computer Science from
+							Kaduna State University Nigeria. Detail-oriented
+							individual with a strong skill set in frontend
+							development and a solid foundation in mathematics
+							and statistics. I have a keen eye for design and
+							user experience, enabling me to create visually
+							appealing and user-friendly interfaces. With a deep
+							understanding of mathematical concepts and
+							statistical analysis, I bring a data-driven approach
+							to problem-solving and decision-making. Proficient
+							in HTML, CSS, and JavaScript. I enjoy collaborating
+							with others in dynamic environments to drive
+							innovation and deliver high-quality solutions. To
+							contribute my diverse skill set and dedication to
+							excellence in a professional environment. Seeking a
+							challenging role where I can apply my strong
+							problem-solving abilities, effective communication
+							skills, and meticulous attention to detail.
+							Committed to continuous learning, growth, and
+							delivering high-quality results that contribute to
+							the success of the organization.
+						</p>
+						<div class="tabs">
+							<p
+								class="tab-links active-link"
+								onclick="opentab('skills')"
+							>
+								Skills
+							</p>
+							<p
+								class="tab-links"
+								onclick="opentab('experience')"
+							>
+								Experience
+							</p>
+							<p class="tab-links" onclick="opentab('education')">
+								Education
+							</p>
+						</div>
+						<div class="tab-contents active-tab" id="skills">
+							<ul>
+								<li>
+									<span>Web Development</span><br />Designing
+									and developing Web Apps
+								</li>
+								<li>
+									<span>Content Writer</span><br />Academic
+									and non academic writings
+								</li>
+								<li>
+									<span>Insturctor</span><br />Web development
+									Instructor
+								</li>
+							</ul>
+						</div>
+						<div class="tab-contents" id="experience">
+							<ul>
+								<li>
+									<span>2023 - June 2023</span><br />Digital
+									skills and Web Development Instructor at
+									SheCodeAfrica
+								</li>
+								<li>
+									<span>2019 - 2022</span><br />Intern at
+									Dixre Enterprise
+								</li>
+							</ul>
+						</div>
+						<div class="tab-contents" id="education">
+							<ul>
+								<li>
+									<span>2023 - Current</span><br />ALX SE at
+									ALX Africa
+								</li>
+
+								<li>
+									<span>2021</span><br />Bsc Computer Science
+									at Kaduna State University
+								</li>
+								<li>
+									<span>2013</span><br />SSCE at
+									Christambassadors College
+								</li>
+								<li>
+									<span>2007</span><br />First School Leaving
+									Cert at Palmcity International Schools
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!---Servicessssss section-->
+		<div id="services">
+			<div class="container">
+				<h1 class="sub-title">My Services</h1>
+				<div class="services-list">
+					<div>
+						<i class="fa-solid fa-code"></i>
+						<h1>Web Design and Development</h1>
+						<p>
+							Designing captivating websites with seamless user
+							experiences for a remarkable online presence.
+						</p>
+						<a
+							href="https://wa.me/2349043599425?text=Hello,%20Joy%20saw%20your%20portfolio%20and%20wants%20to%20connect"
+							>Learn More</a
+						>
+					</div>
+					<div>
+						<i class="fa-solid fa-chalkboard-user"></i>
+						<h1>Content Creation</h1>
+						<p>
+							Engaging and compelling content that captures
+							attention and drives meaningful connections with
+							your target audience
+						</p>
+						<a
+							href="https://wa.me/2349043599425?text=Hello,%20Joy%20saw%20your%20portfolio%20and%20wants%20to%20connect"
+							>Learn More</a
+						>
+					</div>
+					<div>
+						<i class="fa-solid fa-person"></i>
+						<h1>Instructor</h1>
+						<p>
+							Experienced online instructor empowering learners
+							with practical web development skills through
+							engaging and interactive lessons
+						</p>
+						<a
+							href="https://wa.me/2349043599425?text=Hello,%20Joy%20saw%20your%20portfolio%20and%20wants%20to%20connect"
+							>Learn More</a
+						>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
